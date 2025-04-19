@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import "./Home.css";
 import homeImage from "../assets/home.jpg"; // Correct path
-import eventImage from "../assets/event.jpg"; // New image for the event section
+import eventImage from "../assets/Event.jpg"; // New image for the event section
 
 const Home = () => {
   const [visitorCount, setVisitorCount] = useState(null);
